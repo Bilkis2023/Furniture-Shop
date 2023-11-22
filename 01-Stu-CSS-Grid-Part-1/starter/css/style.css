@@ -66,35 +66,37 @@ body {
     "featuredProduct CTA";
 }
 
-.newCollection {
-  grid-area: chairs;
-  position: absolute;
-  background-position: center;
+#headline {
+ position: absolute;
+ top: 100px;
+ left:500px;
   border: 5px solid #FF6200;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
 
 .heroGridArea {
-
-  display: flex;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover ;
+  align-items: center;
+  display: flex;
   position: relative;
 }
 
-#heroGrid {
+#featuredProduct{
   grid-area: featuredProduct;
   background-image: url("../images/furniture1.png")
 }
 
 #secondaryProduct {
   grid-area: secondaryProduct;
-  background-image: url("../images/furniture2.png/")
+  background-image: url("../images/furniture2.png")
 }
 
-.heroGridArea {
+#CTA {
   grid-area: CTA;
-  justify-content:
+  justify-content: space-around;
   cursor : pointer;
   background-image: url("../images/woodbg 2.png")
 }
